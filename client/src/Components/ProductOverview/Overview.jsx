@@ -13,7 +13,6 @@ var Overview = (props) => {
 
   // Upon component mounting, send a GET request and get all the relevant data (this may need to be refactored if the team decides to house all client-side request handling in the main App file)
   useEffect(() => {
-    console.log('HI!');
     // Send axios request to the specific product
     axios.get('/snuggie/products', { params: { product_id: 40344 } }) // Right now, we have a placeholder for the specific product
       // Then set the products state

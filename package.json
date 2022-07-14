@@ -6,7 +6,7 @@
   "scripts": {
     "server-start": "nodemon server.js -w",
     "client-start": "webpack --config webpack.config.js -w",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "Aaron Pan <adpan.dev@gmail.com>",

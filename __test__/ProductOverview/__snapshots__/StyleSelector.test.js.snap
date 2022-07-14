@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`changes the Main Image and thumbnails displayed when a different style is clicked 1`] = `
+<div>
+  <section
+    className="Containers__ProductOverviewContainer-sc-1le4a1r-0 ctVEHL"
+  >
+    <section
+      className="Containers__ImageGalleryContainer-sc-1le4a1r-1 jDuarS"
+    >
+      <section
+        className="ImageThumbnails-sc-lalhr2-0 jhuyUZ"
+      />
+      <div>
+        <div
+          className="MainImage__DefaultView-sc-k688fp-1 hoEhgE"
+        >
+          <div
+            className="MainImage__Overlay-sc-k688fp-2 zLpAw"
+          >
+            <i
+              className="MainImage__FullScreen-sc-k688fp-5 kGlmLV fa-solid fa-expand"
+            />
+          </div>
+          <img
+            className="MainImage__Image-sc-k688fp-0 ixsHNo"
+            src=""
+          />
+        </div>
+      </div>
+    </section>
+    <section
+      className="Containers__ProductInformationContainer-sc-1le4a1r-2 hdNNLJ"
+    >
+      <section
+        className="Containers__ProductOverviewStarContainer-sc-1le4a1r-3 iPUFAv"
+      >
+        <div>
+          ⭐️⭐️⭐️⭐️⭐️
+        </div>
+        <span
+          className="OverviewStars__ReviewsLink-sc-15f5p6d-0 cDYSFf"
+        >
+          Read [#] Reviews
+        </span>
+      </section>
+      <div />
+      <div />
+      <div />
+      <div>
+        Style &gt; 
+        Selected Style
+      </div>
+      <div>
+        <section
+          className="Containers__StyleThumbnailContainer-sc-1le4a1r-4 eahcuA"
+        />
+      </div>
+      <div>
+        <section
+          className="Containers__SizeAndCountContainer-sc-1le4a1r-6 jhIKwT"
+        >
+          <select
+            className="SizeDropdown-sc-vwdwce-0 iUhIvU"
+          >
+            <option
+              value="S"
+            >
+              S
+            </option>
+            <option
+              value="M"
+            >
+              M
+            </option>
+            <option
+              value="L"
+            >
+              L
+            </option>
+          </select>
+          <select
+            className="QuantityDropdown-sc-2hwqqc-0 gCyTWg"
+          >
+            <option
+              value="1"
+            >
+              1
+            </option>
+            <option
+              value="2"
+            >
+              2
+            </option>
+            <option
+              value="3"
+            >
+              3
+            </option>
+          </select>
+        </section>
+        <section
+          className="Containers__AddToCartContainer-sc-1le4a1r-7 kzyAcV"
+        >
+          <button
+            className="AddToCart__AddToCartButton-sc-1w0dmj9-0 ldXHUb"
+          >
+            Add to Cart
+          </button>
+          <button
+            className="Favorite__FavoriteButton-sc-1czrrgn-0 eFRyuV"
+          >
+            ❤️ Button
+          </button>
+        </section>
+      </div>
+    </section>
+  </section>
+  <section
+    className="Containers__ProductInformationDescription-sc-1le4a1r-8 dMtAPk"
+  />
+</div>
+`;
