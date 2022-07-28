@@ -29,7 +29,7 @@ var App = () => {
       // Then get the specific product
       .then((results) => {
         setAllProducts(results.data)
-        return axios.get('/snuggie/products', { params: {product_id: results.data[0].id} });
+        return axios.get('/snuggie/products', { params: {product_id: results.data[2].id} });
       })
       // Then set the hooks
       .then((results) => {

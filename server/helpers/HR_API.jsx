@@ -77,19 +77,19 @@ var getRelatedProducts = (id) => {
 }
 
 var getProductQuestion = (id, count) => {
-  return axios.get(`https://app-hrsei-api.herokuapp.com/api/fec2/hr-rfp/qa/questions/?product_id=${id}&count=${count}`, {
+  return axios.get(`http://localhost:3000/qa/questions/?product_id=${id}&count=${count}`, {
     headers: headers
   });
 };
 
 var getProductAnswer = (id, count) => {
-  return axios.get(`https://app-hrsei-api.herokuapp.com/api/fec2/hr-rfp/qa/questions/${id}/answers/?count=${count}`, {
+  return axios.get(`http://localhost:3000/qa/questions/${id}/answers/?count=${count}`, {
     headers: headers
   });
 };
 
 var updateQuestionHelpfulness = (id, data) => {
-  return axios.put(`https://app-hrsei-api.herokuapp.com/api/fec2/hr-rfp/qa/questions/${id}/helpful`, data, {
+  return axios.put(`http://localhost:3000/qa/questions/${id}/helpful`, data, {
     headers: headers
   });
 };
@@ -101,19 +101,19 @@ var postAnswer = (id, data) => {
 };
 
 var updateAnswerHelpfulness = (id, data) => {
-  return axios.put(`https://app-hrsei-api.herokuapp.com/api/fec2/hr-rfp/qa/answers/${id}/helpful`, data, {
+  return axios.put(`http://localhost:3000/qa/answers/${id}/helpful`, data, {
     headers: headers
   });
 };
 
 var postQuestion = (data) => {
-  return axios.post(`https://app-hrsei-api.herokuapp.com/api/fec2/hr-rfp/qa/questions/`, data, {
+  return axios.post(`http://localhost:3000/qa/questions`, data, {
     headers: headers
   });
 };
 
 var reportAnswer = (id, data) => {
-  return axios.put(`https://app-hrsei-api.herokuapp.com/api/fec2/hr-rfp/qa/answers/${id}/report`, data, {
+  return axios.put(`http://localhost:3000/qa/answers/${id}/report`, data, {
     headers: headers
   });
 };

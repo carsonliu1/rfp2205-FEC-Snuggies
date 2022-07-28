@@ -26,6 +26,7 @@ var QnaIndex = ({ chosenProduct, productId }) => {
     if(productId) {
       axios.get('/snuggie/qa/questions', {params : {product_id: productId, count: 100}} )
       .then((response) => {
+        console.log(response.data)
         setQuestion(response.data);
         setDefaultQ(response.data);
       })

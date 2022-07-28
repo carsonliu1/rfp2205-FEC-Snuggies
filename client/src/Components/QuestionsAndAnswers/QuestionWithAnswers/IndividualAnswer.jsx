@@ -55,7 +55,7 @@ export default function IndividualAnswer({index, answer}) {
         {index !== 0 && <AnswerSpan>{answer.body}</AnswerSpan>}
         {/* <AnswerSpan>{answer.body}</AnswerSpan> */}
         <ImageSection>
-        {answer.photos.map((each, i) => {
+        {answer.photos?.map((each, i) => {
           return (
             <Images onClick={handleToggle} key={i} src={each || Placeholder}  />
           )

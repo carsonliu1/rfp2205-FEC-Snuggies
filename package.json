@@ -4,7 +4,7 @@
   "description": "",
   "main": "server/server.js",
   "scripts": {
-    "server-start": "nodemon server.js -w",
+    "server-start": "nodemon server.js",
     "client-start": "webpack --config webpack.config.js -w",
     "build":"npx webpack --config webpack.config.js && npm run server-start",
     "test": "jest",
